@@ -55,31 +55,31 @@ int main()
             day_final = abs(day)%7;
             switch (day_final){
                 case 0:
-                    printf("Sunday\n");
+                    printf("Sunday\n\n");
                     break;
                 case 1:
-                    printf("Monday\n");
+                    printf("Monday\n\n");
                     break;
                 case 2:
-                    printf("Tuesday\n");
+                    printf("Tuesday\n\n");
                     break;
                 case 3:
-                    printf("Wednesday\n");
+                    printf("Wednesday\n\n");
                     break;
                 case 4:
-                    printf("Thursday\n");
+                    printf("Thursday\n\n");
                     break;
                 case 5:
-                    printf("Friday\n");
+                    printf("Friday\n\n");
                     break;
                 case 6:
-                    printf("Saturday\n");
+                    printf("Saturday\n\n");
                     break;
             }
         } else
-            printf("Error, print like this:\n05 11 2014");
+            printf("Error, print like this:\n05 11 2014\n\n");
     }
     else
-        printf("Error, one or more of date is wrong!");
+        printf("Error, one or more of date is wrong!\n\n");
     return 0;
 }
