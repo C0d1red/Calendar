@@ -6,12 +6,12 @@ int main()
 {
     int d, m, y, stol, year_stol, year_check, day_check, mounth_check,  year_count, mounth_count, day_count, day_final;
     double day;
+    year_count = mounth_count = day_count = 0;
     printf("Print your date: (05 11 2014) \n");
     scanf("%d %d %d", &d, &m, &y);
 
     if(d>0 && d<32 && m>0 && m<13 && y>999 && y<10000){
 
-        year_count = mounth_count = day_count = 0;
         year_check = y;
         mounth_check = m;
         day_check = d;
