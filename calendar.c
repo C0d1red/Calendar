@@ -55,25 +55,25 @@ int main()
             day_final = abs(day)%7;
             switch (day_final){
                 case 0:
-                    printf("Sunday");
+                    printf("Sunday\n");
                     break;
                 case 1:
-                    printf("Monday");
+                    printf("Monday\n");
                     break;
                 case 2:
-                    printf("Tuesday");
+                    printf("Tuesday\n");
                     break;
                 case 3:
-                    printf("Wednesday");
+                    printf("Wednesday\n");
                     break;
                 case 4:
-                    printf("Thursday");
+                    printf("Thursday\n");
                     break;
                 case 5:
-                    printf("Friday");
+                    printf("Friday\n");
                     break;
                 case 6:
-                    printf("Saturday");
+                    printf("Saturday\n");
                     break;
             }
         } else
